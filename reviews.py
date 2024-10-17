@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from langchain_community.llms import Cohere
 import cohere
 
 # Set page configuration (must be the first Streamlit command)
